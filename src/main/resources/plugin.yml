@@ -1,0 +1,9 @@
+name: Pl3xMap-VanishNoPacket
+version: ${project.version}
+main: me.notom3ga.pl3xmap.vanishnopacket.Pl3xMapVanishNoPacket
+api-version: 1.16
+authors: [ notOM3GA ]
+description: VanishNoPacket addon for Pl3xMap
+softdepend:
+  - Pl3xMap
+  - VanishNoPacket
