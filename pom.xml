@@ -6,7 +6,7 @@
 
     <groupId>me.notom3ga.pl3xmap.vanishnopacket</groupId>
     <artifactId>Pl3xMap-VanishNoPacket</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <packaging>jar</packaging>
 
     <dependencies>
@@ -23,7 +23,7 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>org.kitteh.vanish</groupId>
+            <groupId>org.kitteh</groupId>
             <artifactId>VanishNoPacket</artifactId>
             <version>3.21.G0.1</version>
             <scope>provided</scope>
@@ -32,16 +32,16 @@
 
     <repositories>
         <repository>
-            <id>notom3ga-repo</id>
-            <url>https://repo.notom3ga.me/releases/</url>
+            <id>paper-repo</id>
+            <url>https://papermc.io/repo/repository/maven-public/</url>
         </repository>
         <repository>
             <id>pl3x-repo</id>
             <url>https://repo.pl3x.net/snapshots/</url>
         </repository>
         <repository>
-            <id>paper-repo</id>
-            <url>https://papermc.io/repo/repository/maven-public/</url>
+            <id>notom3ga-repo</id>
+            <url>https://notom3ga.jfrog.io/artifactory/repo/</url>
         </repository>
     </repositories>
 
